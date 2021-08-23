@@ -19,8 +19,8 @@ The purpose of this analysis was to determine credit risk through the use of sup
 ## SMOTE
 
 ![SMOTE_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_Accuracy.png)
-![SMOTE_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_ICR.png)
-![SMOTE_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_CM.png)
+![SMOTE_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_ICR.png)
+![SMOTE_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_CM.png)
 
 •	The SMOTE Model had a moderate accuracy (little better than the ROS Model) of about 66.2%
 
@@ -42,9 +42,9 @@ The purpose of this analysis was to determine credit risk through the use of sup
 
 ## SMOTEENN Combination Model
 
-![SMOTEENN_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_Accuracy.png)
-![SMOTEENN_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_ICR.png)
-![SMOTEENN_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_CM.png)
+![SMOTEENN_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_Accuracy.png)
+![SMOTEENN_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_ICR.png)
+![SMOTEENN_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_CM.png)
 
 •	The SMOTEENN Model had a modest accuracy thus far of about 66.7%
 
