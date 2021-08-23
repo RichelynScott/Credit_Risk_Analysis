@@ -11,7 +11,9 @@ The purpose of this analysis was to determine credit risk through the use of sup
 ![RandomOverSampler_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/RandomOverSampler_CM.png)
 
 •	The ROS Model has a moderate accuracy of about 65.5%
+
 •	The ROS Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1%  for predicting high-risk applicants
+
 •	The ROS Model had a modest Sensitivity/Recall score of 72% for high-risk applicants and a mediocre Sensitivity/Recall score of 59% for low-risk applicants
 
 ## SMOTE
@@ -21,5 +23,8 @@ The purpose of this analysis was to determine credit risk through the use of sup
 ![SMOTE_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTEENN_CM.png)
 
 •	The SMOTE Model had a moderate accuracy (little better than the ROS Model) of about 66.2%
+
 •	The SMOTE Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1%  for predicting high-risk applicants (Just like the ROS Model)
+
 •	The SMOTE Model had a modest Sensitivity/Recall score of 69% for high-risk applicants and a modest Sensitivity/Recall score of 63% for low-risk applicants (Slightly higher than the ROS Model)
+
