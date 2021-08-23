@@ -34,7 +34,7 @@ The purpose of this analysis was to determine credit risk through the use of sup
 ![CC_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_ICR.png)
 ![CC_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_CM.png)
 
-•	The Cluster Centroids Model had a lower accuracy than the ROS & SMOTE models of about 54.5%, low in comparison to the others 
+•	The Cluster Centroids Model had the lowest precision of all models at about 54.5%
 
 •	The Cluster Centroids Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1% for predicting high-risk applicants (Just like the ROS & SMOTE Models)
 
