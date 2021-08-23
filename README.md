@@ -75,3 +75,8 @@ The purpose of this analysis was to determine credit risk through the use of sup
 •	The EEC Model had an extremely high precision of about 100% for detecting low-risk applicants and the highest 9% for predicting high-risk applicants
 
 •	The EEC Model also had the highest Sensitivity/Recall score of 92% for high-risk applicants and the highest Sensitivity/Recall score of 94% for low-risk applicants
+
+## Summary
+
+Overall, the majority of models could not accurately predict future credit risk with only the Balanced Random Forest and Easy Ensemble models having accuracy scores above 75%. The Easy Ensemble Adaboosted Classifer Model (EEC  Model) was the best with an accuracy score of approximately 93.2%. With an assessment like credit risk, we would want sensitivity to be the primary focus over precision. The best model is all relative categories however would be the Easy Ensemble Model for predicting future credit risk, as it had the highest estimated sensitivity/recall scores of 92% and 94% for high-risk applicant and low-risk applicants respectively. 
+
