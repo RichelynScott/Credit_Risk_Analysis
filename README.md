@@ -34,10 +34,44 @@ The purpose of this analysis was to determine credit risk through the use of sup
 ![CC_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_ICR.png)
 ![CC_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_CM.png)
 
-•	The Cluster Centroids Model had a lower accuracy than the ROS & SMOTE models of about 54.5%
+•	The Cluster Centroids Model had a lower accuracy than the ROS & SMOTE models of about 54.5%, low in comparison to the others 
 
 •	The Cluster Centroids Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1% for predicting high-risk applicants (Just like the ROS & SMOTE Models)
 
 •	The Cluster Centroids Model had a modest Sensitivity/Recall score of 69% for high-risk applicants and a poor Sensitivity/Recall score of 40% for low-risk applicants (The worst of all current models thus far)
 
+## SMOTEENN Combination Model
 
+![SMOTEENN_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_Accuracy.png)
+![SMOTEENN_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_ICR.png)
+![SMOTEENN_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/SMOTE_CM.png)
+
+•	The SMOTEENN Model had a modest accuracy thus far of about 66.7%
+
+•	The SMOTEEN Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1% for predicting high-risk applicants (Just like the ROS, SMOTE, & CC Models)
+
+•	The SMOTEENN Model had a good Sensitivity/Recall score of 72% for high-risk applicants and a modest Sensitivity/Recall score of 61% for low-risk applicants (amongst the best of any model thus far)
+
+## Balanced Random Forest (BRFC) Model
+
+![BRFC_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/BRFC_Accuracy.png)
+![BRFC_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/BRFC_ICR.png)
+![BRFC_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/BRFC_CM.png)
+
+•	The BRFC Model had the 2nd highest accuracy of about 78.9%
+
+•	The BRFC Model had an extremely high precision of about 100% for detecting low-risk applicants but a better 3% for predicting high-risk applicants The BRFC Model had a good Sensitivity/Recall score of 72% for high-risk applicants and a modest Sensitivity/Recall score of 61% for low-risk applicants (modestly amongst the best model thus far)
+
+•	The BRFC Model had a good Sensitivity/Recall score of 70% for high-risk applicants and the second best Sensitivity/Recall score of 87% for low-risk applicants
+
+## Easy Ensemble Adaboosted Classifier (EEC) Model
+
+![EEC_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/EEC_Accuracy.png)
+![EEC_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/EEC_ICR.png)
+![EEC_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/EEC_ICR.png)
+
+•	The EEC Model had the highest accuracy of about 93.2%
+
+•	The EEC Model had an extremely high precision of about 100% for detecting low-risk applicants and the highest 9% for predicting high-risk applicants
+
+•	The EEC Model also had the highest Sensitivity/Recall score of 92% for high-risk applicants and the highest Sensitivity/Recall score of 94% for low-risk applicants
