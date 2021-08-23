@@ -28,3 +28,16 @@ The purpose of this analysis was to determine credit risk through the use of sup
 
 •	The SMOTE Model had a modest Sensitivity/Recall score of 69% for high-risk applicants and a modest Sensitivity/Recall score of 63% for low-risk applicants (Slightly higher than the ROS Model)
 
+## Cluster Centroids Undersampling Model
+
+![CC_Accuracy](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_Accuracy.png)
+![CC_ICR](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_ICR.png)
+![CC_CM](https://github.com/RichelynScott/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/images/ClusterCentroids_CM.png)
+
+•	The Cluster Centroids Model had a lower accuracy than the ROS & SMOTE models of about 54.5%
+
+•	The Cluster Centroids Model has an extremely high precision of about 100% for detecting low-risk applicants but an abysmal 1% for predicting high-risk applicants (Just like the ROS & SMOTE Models)
+
+•	The Cluster Centroids Model had a modest Sensitivity/Recall score of 69% for high-risk applicants and a poor Sensitivity/Recall score of 40% for low-risk applicants (The worst of all current models thus far)
+
+
